@@ -5,45 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    
+    <ul id="menu">
         <li>
-            <a href="index.html">Home</a>
+            <a href="index.html"> Home</a>
         </li>
         <li>
-            <a href="contato.html">Contato</a>
+            <a href="contato.html"> Contato</a>
         </li>
     </ul>
     
-    <h1>Entre em contato comigo</h1>
-    <form>
-        
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button> 
-    </form>
-    <h2>Endereço</h2>
-    <p>Rua Doze 94</p>
-    <p>São lourenço da mata - PE</p> 
+    <h1 class="center">Entre em contato comigo</h1>
     
-    <iframe src="https://www.google.com/maps/embed?pb=!4v1637690505425!6m8!1m7!1srYfytScdveG92hykk6zS4g!2m2!1d-8.003382372456057!2d-35.03744279817563!3f176.608172904108!4f0!5f0.7820865974627469" 
-    width="400" 
-    height="250" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy">
+    <div class="container">
+
+
+
+        <div>
+            
+            <form>
+        
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">E-mail:</label> <br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button> 
+            
+            </form>
+        </div>
+
+        <div class="ml-50">
+            
+            <p>Rua Doze / N° 94</p>
+            <p>São lourenço da mata - PE</p> 
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1637690505425!6m8!1m7!1srYfytScdveG92hykk6zS4g!2m2!1d-8.003382372456057!2d-35.03744279817563!3f176.608172904108!4f0!5f0.7820865974627469" 
+            width="400" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+
+        </div>
+
+
+    </div>
 </iframe>
+
+<hr>
+<footer>
+    
+    <div class="container">
+        <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+        </a>
+       
+        <a href="https://www.linkedin.com/in/renomario-cosme-6b1337142/" target="_blank">
+            <img class="tm-social p-30"src="assets/img/linkedin.png" alt="Logo do Linkedin">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img class="tm-social p-30"src="assets/img/instagram.png" alt="Logo do Instagram">
+        </a>
+
+    </div>
+    
+    
+    <p class="center">
+        Todos os direitos reservados: Renomário &copy 
+
+    </p>
+
+</footer>
 
 </body>
 </html>
